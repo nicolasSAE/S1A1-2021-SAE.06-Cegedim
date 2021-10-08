@@ -4,3 +4,5 @@ Entreprise : Cegedim
 Groupe : BASQUIN Nicolas 
          CHHEAN Sokchy
          BA SIDI
+         
+![écran de zoning](doc/ecran_zoning.png)
