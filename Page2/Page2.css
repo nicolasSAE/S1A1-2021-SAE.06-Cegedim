@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    height: 100%;
+}
+ body{
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.nav-container {
+background: cornflowerblue;
+
+}
+
+nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+nav .logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: cornsilk;
+
+}
+
+nav ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  flex: 0.6;
+  margin-right: 10%;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: cornsilk;
+    text-align: left;
+
+
+}
+
+nav ul li a:hover{
+    color: darkgoldenrod;
+}
+
+.section{
+    height: 40vh;
+    position: relative;
+}
+
+.section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("./dematerialisation-processus-rh-e1540282453335-1920x400.jpg");
+    z-index: -1;
+    background-size: cover;
+}
+
+.content{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 90%;
+}
+
+.content h1 {
+    color: cornsilk;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content h2{
+    color: cornsilk;
+}
+.content span{
+    color: #6495ED;
+}
+
+footer{
+    background-color:cornflowerblue;
+    padding: 25px 100px;
+    color: cornsilk;
+    margin-top: auto;
+
+}
+
+footer .colonnes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.section2{
+
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.section2 h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+.section2 p{
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+   width: 70%;
+   font-size: 20px;
+
+}
+.info {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+
+}
+span{
+    color: #6495ED;
+}
+.info li{
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+   width: 70%;
+   font-size: 20px;
+}
+
+
+.img{
+   padding: 20px;
+}
+
+.text{
+
+    padding: 100px;
+    background: cornflowerblue;
+    font-family: 'Raleway', sans-serif;
+     margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   box-shadow: 3px 3px olive, -1em 0 .4em olive;
+
+}
+
+
+.text h2{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 6rem;
+}
+.text p{
+    margin-top: 2.5rem;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+.section4{
+  background: #00FFFF;
+  text-align: center;
+    width: 100%;
+    max-width: 1600px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+
+
+
+.section4 h2{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1rem;
+}
+.section4 p{
+    font-family: 'Raleway', sans-serif;
+   width: 100%;
+   margin-top: 1rem;
+}
+.section4 h3{
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+.info1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   float:left;
+}
+
+.img{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.section3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+
+
+
+.section4 li{
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+   width: 100%;
+   font-size: 20px;
+}
+
+
+
+.section5
+{
+    display: flex;
+    box-shadow: 3px 3px black, -1em 0 .4em black;
+    justify-content: space-around;
+}
+
+
+.section6{
+    background:cadetblue;
+    text-align: center;
+      width: 100%;
+      max-width: 1600px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      padding: 50px;
+
+
+  }
+
+  .section6 h2{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 3rem;
+
+}
+.section6 p{
+    font-family: 'Raleway', sans-serif;
+   width: 100%;
+   margin-top: 1rem;
+}
+.section5{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+
+}
+
+.section6 h3{
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+.info2{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   float:left;
+   margin-top: 1rem;
+   font-family: 'Raleway', sans-serif;
+
+}
+
+.img1{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
