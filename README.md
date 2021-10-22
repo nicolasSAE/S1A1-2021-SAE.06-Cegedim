@@ -6,8 +6,10 @@ Groupe : BASQUIN Nicolas
          BA SIDI
 
 page prototype, page d'accueil et page organisation: Sidi Ba
+
 page services et page prototype: Sokchy Chhean
-fiche d'entreprise, mise en forme du rapport, page 3: Nicolas Basquin
+
+fiche d'entreprise, mise en forme du rapport, page stratégies: Nicolas Basquin
          
 Adresse mail référent: nicolas.basquin@edu.univ-fcomte.fr
 ![écran de zoning]
